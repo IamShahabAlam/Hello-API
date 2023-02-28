@@ -1,0 +1,326 @@
+{
+    "success": true,
+    "message": "All Data",
+    "data": [
+    {
+    "_id": "0",
+    "on_sale": true,
+    "sale_percent": 20,
+    "sold": 12,
+    "slider_new": false,
+    "slider_recent": false,
+    "slider_sold": false,
+    "date": "2021-11-18T09:03:04.358Z",
+    "title": "EMTSI21-50199",
+    "categories": {
+    "_id": "612c8b2b674ad2107eb2d244",
+    "type": "Women",
+    "date": "2021-08-30T07:29:45.558Z",
+    "name": "Clothes",
+    "image": "https://e7.pngegg.com/pngimages/987/597/png-clipart-assorted-color-clothes-on-clothes-rack-t-shirt-clothing-armoires-wardrobes-closet-clothes-hanger-clothing-retail-fashion-thumbnail.png",
+    "__v": 0
+    },
+    "subcate": {
+    "_id": "616e81dba17386218e27a2b5",
+    "date": "2021-10-18T10:52:11.222Z",
+    "name": "Shirts",
+    "parentid": "612c8b2b674ad2107eb2d244",
+    "__v": 0
+    },
+    "shop": {
+    "_id": "619c85e200622d79441b016f",
+    "is_active": false,
+    "created_at": "2021-11-18T09:03:04.356Z",
+    "name": "Edenrobe",
+    "description": "The is Edenrobe brand",
+    "shopemail": "edenrobe@gmail.com",
+    "shopaddress": "Islamabad F8",
+    "shopcity": "Islamabad",
+    "userid": "619c85e100622d79441b015d",
+    "image": "https://image.shutterstock.com/image-photo/hong-kong-january-26-2016-600w-375233593.jpg",
+    "__v": 0
+    },
+    "price": "2,790.00",
+    "sale_title": "Winter Sale",
+    "sale_price": "1,953.00",
+    "description": "Classic Collar Grey Texture Striped Dobby Cotton Barrel Cuff Slim Fit 100% Cotton Solid Machine Washable Product Code: EMTSUC21-134",
+    "colors": "#FF6347,#CD5C5C",
+    "size": "S,M,L,XL,XXL",
+    "images": [
+    {
+    "_id": "619c8e4400622d79441b9631",
+    "filename": "images[0]-1637649987263-936766588.webp",
+    "url": "https://i.ebayimg.com/images/g/m3YAAOSwZHRivlHr/s-l500.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9632",
+    "filename": "images [1]-1637649987919-666952226.webp",
+    "url": "http://atlas-content-cdn.pixelsquid.com/stock-images/woman-plaid-shirt-rv2eMnE-600.jpg"
+    },
+    {
+    "_id": "619c8e4400622d79441b9633",
+    "filename": "images [2]-1637649988328-112759468.webp",
+    "url": "https://www.pngitem.com/pimgs/m/39-394598_women-shirt-png-transparent-png.png"
+    }
+    ],
+    "__v": 1,
+    "in_wishlist": false
+    },
+    {
+    "_id": "1",
+    "on_sale": false,
+    "sale_percent": 12,
+    "sold": 180,
+    "slider_new": false,
+    "slider_recent": false,
+    "slider_sold": false,
+    "date": "2021-11-18T09:03:04.358Z",
+    "title": "YUWPI21-407899",
+    "categories": {
+    "_id": "612c8b2b674ad2107eb2d244",
+    "type": "Men",
+    "date": "2021-08-30T07:29:45.558Z",
+    "name": "Toys",
+    "image": "https://e7.pngegg.com/pngimages/216/538/png-clipart-toy-shop-graphy-stuffed-animals-cuddly-toys-toys-r-us-rolypoly-toy-game-child.png",
+    "__v": 0
+    },
+    "subcate": {
+    "_id": "616e81dba17386218e27a2b5",
+    "date": "2021-10-18T10:52:11.222Z",
+    "name": "Kids Toys",
+    "parentid": "612c8b2b674ad2107eb2d244",
+    "__v": 0
+    },
+    "shop": {
+    "_id": "619c85e200622d79441b016f",
+    "is_active": false,
+    "created_at": "2021-11-18T09:03:04.356Z",
+    "name": "ToysMakers",
+    "description": "The is ToysMaker brand",
+    "shopemail": "ToysMaker@gmail.com",
+    "shopaddress": "Hyderabad Malir",
+    "shopcity": "Hyderababd",
+    "userid": "287cdcqo8c7tug9441b015d",
+    "image": "https://img.freepik.com/free-vector/font-design-word-toy-shop-with-many-toys_1308-42318.jpg",
+    "__v": 0
+    },
+    "price": "840.00",
+    "sale_title": "Summer Sale",
+    "sale_price": "783.00",
+    "description": "Toy Shop Retail Toys  Us PNG, Clipart, Area, Brand, Educational Toys, Game, Lego Free PNG",
+    "colors": "#FF6347,#CD5C5C",
+    "size": "S,M,L,XL,XXL",
+    "images": [
+    {
+    "_id": "619c8e4400622d79441b9631",
+    "filename": "images[0]-1637649987263-936766588.webp",
+    "url": "https://img.lovepik.com/element/40153/9260.png_300.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9632",
+    "filename": "images [1]-1637649987919-666952226.webp",
+    "url": "https://www.seekpng.com/png/detail/104-1042905_plane-toys-png-le-toy-van-red-sky.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9633",
+    "filename": "images [2]-1637649988328-112759468.webp",
+    "url": "https://w7.pngwing.com/pngs/106/417/png-transparent-assorted-color-learning-cubes-toy-block-child-kids-toys-game-painted-building.png"
+    }
+    ],
+    "__v": 1,
+    "in_wishlist": false
+    },
+    {
+    "_id": "2",
+    "on_sale": true,
+    "sale_percent": 78,
+    "sold": 72,
+    "slider_new": false,
+    "slider_recent": false,
+    "slider_sold": false,
+    "date": "2021-11-18T09:03:04.358Z",
+    "title": "SFQI21-53529",
+    "categories": {
+    "_id": "612c8b2b674ad2107eb2d244",
+    "type": "ALL",
+    "date": "2021-08-30T07:29:45.558Z",
+    "name": "Watches",
+    "image": "https://w7.pngwing.com/pngs/134/887/png-transparent-round-black-rolex-analog-watch-with-bracelet-rolex-submariner-rolex-daytona-rolex-datejust-rolex-gmt-master-ii-black-male-watch-rolex-watch-black-hair-watch-accessory-black-white.png",
+    "__v": 0
+    },
+    "subcate": {
+    "_id": "616e81dba17386218e27a2b5",
+    "date": "2021-10-18T10:52:11.222Z",
+    "name": "Wrist Watch",
+    "parentid": "612c8b2b674ad2107eb2d244",
+    "__v": 0
+    },
+    "shop": {
+    "_id": "619c85e200622d79441b016f",
+    "is_active": false,
+    "created_at": "2021-11-18T09:03:04.356Z",
+    "name": "Rolex",
+    "description": "The is Royal Rolex brand",
+    "shopemail": "RoyalRolex@gmail.com",
+    "shopaddress": "Karachi Nazimabad",
+    "shopcity": "Karachi",
+    "userid": "619c85e100622d79441b015d",
+    "image": "https://cdni.iconscout.com/illustration/premium/thumb/watches-shop-building-7146075-5804104.png",
+    "__v": 0
+    },
+    "price": "14,890.00",
+    "sale_title": "February Sale",
+    "sale_price": "12,953.00",
+    "description": "Shop Premium High Quality, Unique, Stylish, and Affordable Watches Affordable Watches Full Titanium Steel Black Silver Adjustable Watch Strap Men Bracelet",
+    "colors": "#FF6347,#CD5C5C",
+    "size": "S,M,L,XL,XXL",
+    "images": [
+    {
+    "_id": "619c8e4400622d79441b9631",
+    "filename": "images[0]-1637649987263-936766588.webp",
+    "url": "https://w7.pngwing.com/pngs/275/826/png-transparent-watch-strap-shopify-gold-diamond-watch.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9632",
+    "filename": "images [1]-1637649987919-666952226.webp",
+    "url": "https://static.wixstatic.com/media/2cd43b_70674f11a01e43f19366ee72aee4b8bb~mv2.png/v1/fill/w_320,h_507,q_90/2cd43b_70674f11a01e43f19366ee72aee4b8bb~mv2.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9633",
+    "filename": "images [2]-1637649988328-112759468.webp",
+    "url": "https://png.pngtree.com/png-vector/20200420/ourmid/pngtree-wristwatch-vector-illustration-flat-design-png-image_2190672.jpg"
+    }
+    ],
+    "__v": 1,
+    "in_wishlist": true
+    },
+    {
+    "_id": "3",
+    "on_sale": false,
+    "sale_percent": 19,
+    "sold": 122,
+    "slider_new": false,
+    "slider_recent": false,
+    "slider_sold": false,
+    "date": "2021-11-18T09:03:04.358Z",
+    "title": "ETYU01-53411",
+    "categories": {
+    "_id": "612c8b2b674ad2107eb2d244",
+    "type": "ALL",
+    "date": "2021-08-30T07:29:45.558Z",
+    "name": "Mobiles",
+    "image": "https://png.pngitem.com/pimgs/s/509-5092096_offering-high-quality-mobile-repair-service-main-image.png",
+    "__v": 0
+    },
+    "subcate": {
+    "_id": "616e81dba17386218e27a2b5",
+    "date": "2021-10-18T10:52:11.222Z",
+    "name": "Electronics",
+    "parentid": "612c8b2b674ad2107eb2d244",
+    "__v": 0
+    },
+    "shop": {
+    "_id": "619c85e200622d79441b016f",
+    "is_active": true,
+    "created_at": "2021-11-18T09:03:04.356Z",
+    "name": "Samsung",
+    "description": "The is Samsung brand",
+    "shopemail": "Samsung@gmail.com",
+    "shopaddress": "Lahore M8",
+    "shopcity": "Lahore",
+    "userid": "619c85e100622d79441b015d",
+    "image": "https://png.pngtree.com/png-vector/20200417/ourlarge/pngtree-shopping-on-mobile-png-image_2189444.jpg",
+    "__v": 0
+    },
+    "price": "89,790.00",
+    "sale_title": "Winter Sale",
+    "sale_price": "78,953.00",
+    "description": "Samsung Mobiles These online, shop, shopping transparent PNG images and vector files can be used to fulfill most of your daily design needs.",
+    "colors": "#FF6347,#CD5C5C",
+    "size": "S,M,L,XL,XXL",
+    "images": [
+    {
+    "_id": "619c8e4400622d79441b9631",
+    "filename": "images[0]-1637649987263-936766588.webp",
+    "url": "https://www.pngplay.com/wp-content/uploads/7/Android-Mobile-Download-Free-PNG.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9632",
+    "filename": "images [1]-1637649987919-666952226.webp",
+    "url": "https://img.lovepik.com/free-png/20211215/lovepik-smartphone-model-png-image_401660433_wh1200.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9633",
+    "filename": "images [2]-1637649988328-112759468.webp",
+    "url": "https://techin.pk/price/assets/images/models/featured/xcell-view-in-pakistan.jpg"
+    }
+    ],
+    "__v": 1,
+    "in_wishlist": false
+    },
+    {
+    "_id": "4",
+    "on_sale": true,
+    "sale_percent": 10,
+    "sold": 42,
+    "slider_new": false,
+    "slider_recent": false,
+    "slider_sold": false,
+    "date": "2021-11-18T09:03:04.358Z",
+    "title": "EMTSI21-50199",
+    "categories": {
+    "_id": "612c8b2b674ad2107eb2d244",
+    "type": "Women",
+    "date": "2021-08-30T07:29:45.558Z",
+    "name": "Electronics",
+    "image": "https://toppng.com/uploads/preview/red-refrigerator-11552762515wcqffpg05q.png",
+    "__v": 0
+    },
+    "subcate": {
+    "_id": "616e81dba17386218e27a2b5",
+    "date": "2021-10-18T10:52:11.222Z",
+    "name": "House Hold ELectronics",
+    "parentid": "612c8b2b674ad2107eb2d244",
+    "__v": 0
+    },
+    "shop": {
+    "_id": "619c85e200622d79441b016f",
+    "is_active": true,
+    "created_at": "2021-11-18T09:03:04.356Z",
+    "name": "Dawlance",
+    "description": "The is Dawlance brand",
+    "shopemail": "Dawlance@gmail.com",
+    "shopaddress": "Karachi FB Area",
+    "shopcity": "Karachi",
+    "userid": "619c85e100622d79441b015d",
+    "image": "https://freepngimg.com/thumb/refrigerator/5-2-refrigerator-png-picture-thumb.png",
+    "__v": 0
+    },
+    "price": "92,790.00",
+    "sale_title": "Winter Sale",
+    "sale_price": "89,953.00",
+    "description": "We have Single door, Double door, Triple door, Side by side door, Bottom Freezer, with & without tray and more as both brand",
+    "colors": "#FF6347,#CD5C5C",
+    "size": "S,M,L,XL,XXL",
+    "images": [
+    {
+    "_id": "619c8e4400622d79441b9631",
+    "filename": "images[0]-1637649987263-936766588.webp",
+    "url": "https://png.pngitem.com/pimgs/s/557-5577285_lg-fridge-png-transparent-png.png"
+    },
+    {
+    "_id": "619c8e4400622d79441b9632",
+    "filename": "images [1]-1637649987919-666952226.webp",
+    "url": "https://m.media-amazon.com/images/I/71FxWNuC7sL._AC_SS450_.jpg"
+    },
+    {
+    "_id": "619c8e4400622d79441b9633",
+    "filename": "images [2]-1637649988328-112759468.webp",
+    "url": "https://e7.pngegg.com/pngimages/838/945/png-clipart-refrigerator-samsung-rf26j7500-frigidaire-gallery-fghb2866p-ice-makers-fridge-angle-kitchen.png"
+    }
+    ],
+    "__v": 1,
+    "in_wishlist": false
+    }
+    ]
+    }
