@@ -12,7 +12,6 @@ class PostsPage extends StatefulWidget {
 }
 
 class _PostsPageState extends State<PostsPage> {
-  // var baseURL = "https://jsonplaceholder.typicode.com/posts";
   List<PostsModel> postsList = [];
 
   Future<List<PostsModel>> getPostApi() async {

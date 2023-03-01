@@ -60,6 +60,7 @@ class _AllDataPageState extends State<AllDataPage> {
                   builder: ((context, snapshot) {
                     if (snapshot.hasData) {
                       return ListView.builder(
+                        physics: BouncingScrollPhysics(),
                         shrinkWrap: true,
                         itemCount: snapshot.data!.data!.length,
                         itemBuilder: ((context, data_i) {
@@ -119,6 +120,7 @@ class _AllDataPageState extends State<AllDataPage> {
                         height: h * 0.26,
                         width: w * 1,
                         child: ListView.builder(
+                          physics: BouncingScrollPhysics(),
                           scrollDirection: Axis.horizontal,
                           itemCount: snapshot.data!.data![data_i].images!.length,
                           itemBuilder: ((context, images_i) {
@@ -134,7 +136,7 @@ class _AllDataPageState extends State<AllDataPage> {
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
                                         image: NetworkImage(
-                                          _data.images![images_i].url!
+                                          _data.images![images_i].url.toString()
                                         ),
                                       )),
                                 ),

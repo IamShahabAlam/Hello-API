@@ -18,9 +18,7 @@ class _PhotosPageState extends State<PhotosPage> {
     var data = jsonDecode(response.body.toString());
     if (response.statusCode == 200) {
       for (Map i in data) {
-        PhotosModel photos =
-        
-            PhotosModel(id: i["id"], title: i['title'], url: i['url']);
+        PhotosModel photos = PhotosModel(id: i["id"], title: i['title'], url: i['url']);
         photosList.add(photos);
       }
     } else {

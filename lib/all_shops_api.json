@@ -1,0 +1,287 @@
+
+{
+    "success": true,
+    "message": "All Shops Data",
+    "data": [
+        {
+            "_id": "000001",
+            "is_active": false,
+            "created_at": "2021-11-18T09:03:04.356Z",
+            "name": "ONE",
+            "description": "Clothing store in Islamabad",
+            "shopemail": "ONE@gmail.com",
+            "shopaddress": "islamabad",
+            "shopcity": "Islamabad",
+            "userid": "6196377800622d7944186447",
+            "image": "https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-confident-1714666150",
+            "__v": 0,
+            "products": [
+                {
+                    "_id": "61963b4300622d794418687e",
+                    "on_sale": true,
+                    "sale_percent": 0,
+                    "sold": 10,
+                    "slider_new": false,
+                    "slider_recent": false,
+                    "slider_sold": false,
+                    "date": "2021-11-18T09:03:04.358Z",
+                    "title": "Denim Shirt Grey",
+                    "categories": "612c8b2b674ad2107eb2d244",
+                    "subcate": "616e81dba17386218e27a2b5",
+                    "shop": "6196377900622d794418644b",
+                    "price": "3,490 ",
+                    "sale_title": "3,490 ",
+                    "sale_price": "2,443",
+                    "description": "men shirt",
+                    "colors": "Red",
+                    "size": "S,M,X,XL",
+                    "images": [
+                        {
+                            "_id": "61963b4300622d794418687f",
+                            "filename": "images[0]-1637235522052-730096647.jpeg",
+                            "url": "https://www.shutterstock.com/image-photo/30092019-riga-latvia-sports-girl-prepares-1616559388"
+                        },
+                        {
+                            "_id": "61963c2e00622d7944187316",
+                            "filename": "images[0]-1637235757437-927339951.jpeg",
+                            "url": "https://www.shutterstock.com/image-photo/30092019-riga-latvia-sports-girl-prepares-1616559388"
+                        },
+                        {
+                            "_id": "61963c2e00622d7944187317",
+                            "filename": "images[1]-1637235758276-122593199.jpeg",
+                            "url": "https://www.shutterstock.com/image-photo/30092019-riga-latvia-sports-girl-prepares-1616559388"
+                        }
+                    ],
+                    "__v": 1,
+                    "in_wishlist": false
+                },
+                {
+                    "_id": "6197493700622d794418cdec",
+                    "on_sale": true,
+                    "sale_percent": 10,
+                    "sold": 8,
+                    "slider_new": false,
+                    "slider_recent": false,
+                    "slider_sold": false,
+                    "date": "2021-11-18T09:03:04.358Z",
+                    "title": "Printed Hoodie Grey",
+                    "categories": "616e8081a17386218e27a206",
+                    "subcate": "616e84b2a17386218e27a420",
+                    "shop": "6196377900622d794418644b",
+                    "price": "3,590 ",
+                    "sale_title": "3,590 ",
+                    "sale_price": "2,513",
+                    "description": "ssss",
+                    "colors": "#CD5C5C",
+                    "size": "S,M,L,XL,XXL",
+                    "images": [
+                        {
+                            "_id": "6197493700622d794418cded",
+                            "filename": "images[0]-1637304627221-448731879.jpeg",
+                            "url": "https://www.shutterstock.com/image-photo/30092019-riga-latvia-sports-girl-prepares-1616559388"
+                        },
+                        {
+                            "_id": "6197493700622d794418cdee",
+                            "filename": "images[1]-1637304628418-102234457.jpeg",
+                            "url": "https://www.shutterstock.com/image-photo/30092019-riga-latvia-sports-girl-prepares-1616559388"
+                        },
+                        {
+                            "_id": "6197493700622d794418cdef",
+                            "filename": "images[2]-1637304629564-380376274.jpeg",
+                            "url": "https://www.shutterstock.com/image-photo/30092019-riga-latvia-sports-girl-prepares-1616559388"
+                        }
+                    ],
+                    "__v": 0,
+                    "in_wishlist": false
+                }
+            ]
+        },
+
+ {
+            "_id": "000002",
+            "is_active": false,
+            "created_at": "2021-11-18T09:03:04.356Z",
+            "name": "TWO",
+            "description": "Computer store in Gawadar",
+            "shopemail": "TWO@gmail.com",
+            "shopaddress": "Gawadar",
+            "shopcity": "Gawadar",
+            "userid": "6196377800622d7944186447",
+            "image": "https://www.pcworld.com/wp-content/uploads/2022/12/dell-g2723h-1.jpg?quality=50&strip=all&w=1024",
+            "__v": 0,
+            "products": [
+                {
+                    "_id": "61963b4300622d794418687e",
+                    "on_sale": false,
+                    "sale_percent": 2,
+                    "sold": 22,
+                    "slider_new": false,
+                    "slider_recent": false,
+                    "slider_sold": false,
+                    "date": "2021-11-18T09:03:04.358Z",
+                    "title": "Intel PC",
+                    "categories": "612c8b2b674ad2107eb2d244",
+                    "subcate": "616e81dba17386218e27a2b5",
+                    "shop": "6196377900622d794418644b",
+                    "price": "23,490 ",
+                    "sale_title": "Ramzan Sale",
+                    "sale_price": "22,443",
+                    "description": "How to set up your new computer | PCWorld",
+                    "colors": "Black",
+                    "size": "S,M,X,XL",
+                    "images": [
+                        {
+                            "_id": "61963b4300622d7rt",
+                            "filename": "images[0]-1637235522052-730096647.jpeg",
+                            "url": "https://i.dell.com/sites/csimages/App-Merchandizing_Images/all/dbcs-0570-opti-franchise-hero-banner-aio-optiplex-24-7400-desktop-optiplex-7000-mff-sff-1920x1440.png"
+                        },
+                        {
+                            "_id": "61622d7944187316",
+                            "filename": "images[0]-1637235757437-927339951.jpeg",
+                            "url": "https://m.media-amazon.com/images/I/61AzdePGcdL._AC._SR360,460.jpg"
+                        },
+                        {
+                            "_id": "oiuyf944187317",
+                            "filename": "images[1]-1637235758276-122593199.jpeg",
+                            "url": "https://computeremporium.co.za/wp-content/uploads/2022/11/DELL-Optiplex-9020-Combo.jpg"
+                        }
+                    ],
+                    "__v": 1,
+                    "in_wishlist": true
+                },
+                {
+                    "_id": "6197493700622d794418cdec",
+                    "on_sale": true,
+                    "sale_percent": 16,
+                    "sold": 68,
+                    "slider_new": false,
+                    "slider_recent": false,
+                    "slider_sold": false,
+                    "date": "2021-11-18T09:03:04.358Z",
+                    "title": "Horizon PC",
+                    "categories": "efghjloiuhg34567",
+                    "subcate": "okjhgf2345678",
+                    "shop": "234567plkjhgc",
+                    "price": "89,590 ",
+                    "sale_title": "Eid Sale",
+                    "sale_price": "72,556",
+                    "description": "Deals of the week | Best Seller | Products | Computer | Sales |",
+                    "colors": "#CD5C5C",
+                    "size": "S,M,L,XL,XXL",
+                    "images": [
+                        {
+                            "_id": "98765432hgfdded",
+                            "filename": "images[0]-1637304627221-448731879.jpeg",
+                            "url": "http://cdn.shopify.com/s/files/1/0642/3648/6870/products/cutout-angle-Horizon_II-edited_v2.png?v=1671805473"
+                        },
+                        {
+                            "_id": "619kjhgvfcx4418cdee",
+                            "filename": "images[1]-1637304628418-102234457.jpeg",
+                            "url": "https://cdn.shopify.com/s/files/1/0642/3648/6870/products/cutout-side-Creator_Elite-edited_v2.png?v=1670887449&width=1500"
+                        },
+                        {
+                            "_id": "61974okijhgvfdsw3456f",
+                            "filename": "images[2]-1637304629564-380376274.jpeg",
+                            "url": "https://i.ebayimg.com/images/g/F6MAAOSwwVZjdn2H/s-l1600.jpg"
+                        }
+                    ],
+                    "__v": 0,
+                    "in_wishlist": false
+                }
+            ]
+        },
+
+ {
+            "_id": "000003",
+            "is_active": false,
+            "created_at": "2021-11-18T09:03:04.356Z",
+            "name": "THREE",
+            "description": "Clothing store in Islamabad",
+            "shopemail": "THREE@gmail.com",
+            "shopaddress": "Multan",
+            "shopcity": "Multan",
+            "userid": "Multan-447",
+            "image": "https://www.pakistanisoghat.com/wp-content/uploads/2021/03/Hafiz-ka-multani-sohan-halwa1kg.png",
+            "__v": 0,
+            "products": [
+                {
+                    "_id": "96rthhk222d794418687e",
+                    "on_sale": false,
+                    "sale_percent": 12,
+                    "sold": 76,
+                    "slider_new": false,
+                    "slider_recent": false,
+                    "slider_sold": false,
+                    "date": "2021-11-18T09:03:04.358Z",
+                    "title": "Sohan Halwa",
+                    "categories": "874b2d244",
+                    "subcate": "hgfd8e27a2b5",
+                    "shop": "Shop# 789",
+                    "price": "3,098",
+                    "sale_title": "Tour Sale",
+                    "sale_price": "2,098",
+                    "description": "Exploring the legend(s) of Sohan Halwah - DAWN.COM",
+                    "colors": "Red , Green , blue",
+                    "size": "S,M,X,XL",
+                    "images": [
+                        {
+                            "_id": "111111418687f",
+                            "filename": "images[0]-1637235522052-730096647.jpeg",
+                            "url": "https://static-01.daraz.pk/p/dd304c2bbd552f69b3db97debb868247.jpg"
+                        },
+                        {
+                            "_id": "22222222187316",
+                            "filename": "images[0]-1637235757437-927339951.jpeg",
+                            "url": "https://jamilsweets.pk/wp-content/uploads/2021/08/sohan-halwa-e1602081964929.jpg"
+                        },
+                        {
+                            "_id": "3333333337317",
+                            "filename": "images[1]-1637235758276-122593199.jpeg",
+                            "url": "https://aljannatrewarimultan.com/wp-content/uploads/2022/08/kaju-barfi-200x300.jpg"
+                        }
+                    ],
+                    "__v": 1,
+                    "in_wishlist": true
+                },
+                {
+                    "_id": "6tryuh8cdec",
+                    "on_sale": false,
+                    "sale_percent": 13,
+                    "sold": 338,
+                    "slider_new": false,
+                    "slider_recent": false,
+                    "slider_sold": false,
+                    "date": "2021-11-18T09:03:04.358Z",
+                    "title": "Gulab Jamun",
+                    "categories": "Sweets",
+                    "subcate": "6176518e27a420",
+                    "shop": "6196hbvcxa94418644b",
+                    "price": "1,590 ",
+                    "sale_title": "Eid Sale",
+                    "sale_price": "0,513",
+                    "description": "Butt Sweets & Bakers Butt ka Qadeemi Multani Sohan Halwa menu in Multan | Food Delivery Multan",
+                    "colors": "#CD5C5C",
+                    "size": "S,M,L,XL,XXL",
+                    "images": [
+                        {
+                            "_id": "aaaaaaaacded",
+                            "filename": "images[0]-1637304627221-448731879.jpeg",
+                            "url": "https://www.primegiftservice.com/image/cache/catalog/data/Sweets/all-major-cities/2kg-gulaab-jamun-300x300.jpg"
+                        },
+                        {
+                            "_id": "bbbbbbbbbbcdee",
+                            "filename": "images[1]-1637304628418-102234457.jpeg",
+                            "url": "https://www.karachigifts.com/smallimages/Gulabjamun.jpg"
+                        },
+                        {
+                            "_id": "6ccccccccc94418cdef",
+                            "filename": "images[2]-1637304629564-380376274.jpeg",
+                            "url": "https://lh3.googleusercontent.com/j3C-XGr3BhDO7OlNPcRNDpw1Msy6gQG-a-XA9ygWjjf3sMcbceOZU92Y9IFFZKDGJSV2xyLIaJYw3M3n7g5vcse5xU4=w400-rw"
+                        }
+                    ],
+                    "__v": 0,
+                    "in_wishlist": true
+                }
+            ]
+        }
+]}

@@ -43,6 +43,7 @@ void HeightWidth(BuildContext context) {
   h = MediaQuery.of(context).size.height;
   w = MediaQuery.of(context).size.width;
 }
+
 // Sized Box ----------------------------------------------
 
 extension EmptyPadding on num {
