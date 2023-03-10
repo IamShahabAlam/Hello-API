@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:hello_api_app/views/posts.dart';
 import 'package:hello_api_app/views/photos.dart';
 import 'package:hello_api_app/views/all_data.dart';
+import 'package:hello_api_app/views/shops_data.dart';
 import 'package:hello_api_app/views/users.dart';
 import 'package:hello_api_app/views/users_woModel.dart';
 
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: 
-      AllDataPage(),
+      ShopsDataPage(),
+      // AllDataPage(),
       // UsersPage(),
       // UsersWoModelPage(),
       // PhotosPage(),
