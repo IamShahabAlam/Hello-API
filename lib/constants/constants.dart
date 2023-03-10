@@ -6,8 +6,8 @@ const String kBaseURL = "https://jsonplaceholder.typicode.com";
 const String kPostsURL = "/posts";
 const String kPhotosURL = "/photos";
 const String kUsersURL = '/users';
-const String kAllDataURL =  'https://eob48atlrf4pfn8.m.pipedream.net';
-
+const String kAllDataURL = ''; //'https://eob48atlrf4pfn8.m.pipedream.net';  //iamshahabalam
+const String kShopsDataURL = 'https:eo7jnkqb4wj8xpn.m.pipedream.net';  //shbsync
 
 // Constant Text
 
