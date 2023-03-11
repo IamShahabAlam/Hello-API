@@ -3,6 +3,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hello_api_app/views/custom.dart';
 import 'package:hello_api_app/views/posts.dart';
 import 'package:hello_api_app/views/photos.dart';
 import 'package:hello_api_app/views/all_data.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: 
-      ShopsDataPage(),
+      CustomPage(),
+      // ShopsDataPage(),
       // AllDataPage(),
       // UsersPage(),
       // UsersWoModelPage(),
