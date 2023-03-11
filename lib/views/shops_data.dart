@@ -103,11 +103,12 @@ class _ShopsDataPageState extends State<ShopsDataPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceEvenly,
                                       children: [
-                                        Text(products.price.toString()),
-                                        Text(products.salePrice.toString()),
-                                        Text(products.description.toString()),
+                                        Text("Price: " + products.price.toString()),
+                                        Text("Sale Price: " + products.salePrice.toString()),
+                                        // Text(products.description.toString()),
                                       ],
                                     ),
+                                    
                                     Center(
                                       child: SizedBox(
                                         height: h * 0.15,
@@ -135,7 +136,8 @@ class _ShopsDataPageState extends State<ShopsDataPage> {
                                           }),
                                         ),
                                       ),
-                                    )
+                                    ),
+                                    Text(products.description.toString()),
                                   ],
                                 ),
                               );
