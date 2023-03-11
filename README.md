@@ -12,7 +12,7 @@ Flutter (3.3.3)
 - Under If/Else Created for loop to add data in that list.
 - return postsList;
 
-- Text(postsList[i].title.toString()),  // i is the index
+> Text(postsList[i].title.toString()),  // i is the index
 
 
 ### photos.dart
@@ -20,8 +20,8 @@ Flutter (3.3.3)
 - Created a custom Model. 
 - Initiated a List to Store data from API.
 - Under If/Else Created for loop to add data in that list.
-  PhotosModel photos = PhotosModel(id: i['id'],....);
-  photosList.add(photos);
+  > PhotosModel photos = PhotosModel(id: i['id'],....);
+  > photosList.add(photos);
 
 
 ### users.dart
@@ -42,7 +42,7 @@ Flutter (3.3.3)
 - for loop is not used.
 - return data.
 
-- Text(data[i]['address']['city']), 
+> Text(data[i]['address']['city']), 
 
 ### all_data.dart
 
@@ -56,14 +56,22 @@ Flutter (3.3.3)
 - Under If/Else return AllDataModel.fromJson(data)
 
 1st ListView:
-  snapshot.data!.data![data_i].shop!.description.toString(),
+  > snapshot.data!.data![data_i].shop!.description.toString(),
 
 2nd ListView:
-  snapshot.data!.data![data_i].images![images_i].url.toString()
+  > snapshot.data!.data![data_i].images![images_i].url.toString()
 
 - under 1st listView before return (for Repetition)
 
-final _data = snapshot.data!.data![data_i];
+> final _data = snapshot.data!.data![data_i];
+
+
+### custom.dart
+
+- Created a class named CustomModel with required Parameters.
+- Created a list, called this model and given the values.
+- Called this list values in listView.builder
+> customList[i].icon
 
 ### Theme Colors:
   -  Declared in Constants
