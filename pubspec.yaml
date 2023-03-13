@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^0.13.5
   widget_and_text_animator: ^1.0.9
+  modal_progress_hud_nsn: ^0.3.0
 
 dev_dependencies:
   flutter_test:

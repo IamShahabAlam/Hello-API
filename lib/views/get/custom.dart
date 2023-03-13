@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hello_api_app/components/appbar.dart';
 import 'package:hello_api_app/constants/constants.dart';
 
-import '../models/custom_model.dart';
+import '../../models/get/custom_model.dart';
 
 
 class CustomPage extends StatefulWidget {

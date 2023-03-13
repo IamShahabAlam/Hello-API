@@ -3,13 +3,9 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hello_api_app/views/custom.dart';
-import 'package:hello_api_app/views/posts.dart';
-import 'package:hello_api_app/views/photos.dart';
-import 'package:hello_api_app/views/all_data.dart';
-import 'package:hello_api_app/views/shops_data.dart';
-import 'package:hello_api_app/views/users.dart';
-import 'package:hello_api_app/views/users_woModel.dart';
+import 'package:hello_api_app/views/post/signup.dart';
+
+import 'views/get/custom.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,7 +29,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: 
-      CustomPage(),
+      SignUpPage()
+      // CustomPage(),
       // ShopsDataPage(),
       // AllDataPage(),
       // UsersPage(),

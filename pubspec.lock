@@ -109,6 +109,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+  modal_progress_hud_nsn:
+    dependency: "direct main"
+    description:
+      name: modal_progress_hud_nsn
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.0"
   path:
     dependency: transitive
     description:
@@ -186,4 +193,4 @@ packages:
     version: "1.0.9"
 sdks:
   dart: ">=2.18.2 <3.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"

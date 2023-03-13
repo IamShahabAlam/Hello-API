@@ -2,8 +2,9 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:hello_api_app/components/appbar.dart';
 import 'package:hello_api_app/constants/constants.dart';
-import 'package:hello_api_app/models/users_model.dart';
 import 'package:http/http.dart' as http;
+
+import '../../models/get/users_model.dart';
 
 class UsersPage extends StatefulWidget {
   @override

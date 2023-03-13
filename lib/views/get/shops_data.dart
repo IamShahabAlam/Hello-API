@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:hello_api_app/components/appbar.dart';
 import 'package:hello_api_app/constants/constants.dart';
 import 'package:http/http.dart' as http;
-import 'package:hello_api_app/models/shops_data_model.dart';
+
+import '../../models/get/shops_data_model.dart';
 
 class ShopsDataPage extends StatefulWidget {
   @override

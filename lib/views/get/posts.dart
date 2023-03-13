@@ -2,9 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:hello_api_app/components/appbar.dart';
-import 'package:hello_api_app/models/posts_model.dart';
 import 'package:hello_api_app/constants/constants.dart';
 import 'package:http/http.dart' as http;
+
+import '../../models/get/posts_model.dart';
 
 class PostsPage extends StatefulWidget {
   @override
