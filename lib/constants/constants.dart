@@ -8,7 +8,8 @@ const String kPhotosURL = "/photos";
 const String kUsersURL = '/users';
 const String kAllDataURL =
     ''; //'https://eob48atlrf4pfn8.m.pipedream.net';  //iamshahabalam
-const String kShopsDataURL = ''; // 'https://eo7jnkqb4wj8xpn.m.pipedream.net';  //shbsync
+const String kShopsDataURL =
+    ''; // 'https://eo7jnkqb4wj8xpn.m.pipedream.net';  //shbsync
 
 // Constant Text
 
@@ -40,6 +41,7 @@ const BoxShadow kShadow = BoxShadow(
 // MediaQuery ----------------------------------------------
 
 late double h, w;
+
 void HeightWidth(BuildContext context) {
   h = MediaQuery.of(context).size.height;
   w = MediaQuery.of(context).size.width;
@@ -47,6 +49,8 @@ void HeightWidth(BuildContext context) {
 
 // Sized Box ----------------------------------------------
 
+//  must call HeightWidth(context); 
+// Usage:  0.2.ph 
 extension EmptyPadding on num {
   SizedBox get ph => SizedBox(
         height: h * toDouble(),
