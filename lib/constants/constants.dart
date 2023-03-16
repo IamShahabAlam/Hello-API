@@ -11,6 +11,11 @@ const String kAllDataURL =
 const String kShopsDataURL =
     ''; // 'https://eo7jnkqb4wj8xpn.m.pipedream.net';  //shbsync
 
+// POST API ------------
+
+const String kRegisterURL = "https://reqres.in/api/register";
+const String kLoginURL = "https://reqres.in/api/login";
+
 // Constant Text
 
 const String kLoading = "Loading";
@@ -49,8 +54,8 @@ void HeightWidth(BuildContext context) {
 
 // Sized Box ----------------------------------------------
 
-//  must call HeightWidth(context); 
-// Usage:  0.2.ph 
+//  must call HeightWidth(context);
+// Usage:  0.2.ph
 extension EmptyPadding on num {
   SizedBox get ph => SizedBox(
         height: h * toDouble(),
