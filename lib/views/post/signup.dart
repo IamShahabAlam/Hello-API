@@ -1,6 +1,10 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:hello_api_app/components/appbar.dart';
 import 'package:hello_api_app/constants/constants.dart';
+import 'package:hello_api_app/views/post/login.dart';
+import 'package:http/http.dart';
 
 class SignUpPage extends StatefulWidget {
   @override
@@ -10,6 +14,28 @@ class SignUpPage extends StatefulWidget {
 class _SignUpPageState extends State<SignUpPage> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
+
+  void signUp(String email, password) async {
+    try {
+      Response response = await post(Uri.parse(kRegisterURL), body: {
+        "email": email,
+        "password": password,
+      });
+
+      if (response.statusCode == 200) {
+        var data = jsonDecode(response.body.toString());
+        print(data);
+        print("TOKEN : " + data["token"]);
+        print("ID : " + data["id"].toString());
+        print("******\nAccount Created Successfully\n******");
+      } else {
+        print("******\nFAILED\n******");
+      }
+    } catch (e) {
+      print(e.toString()); // printing msg if error found
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     HeightWidth(context);
@@ -35,7 +61,6 @@ class _SignUpPageState extends State<SignUpPage> {
                 obscureText: true,
                 controller: passwordController,
                 decoration: const InputDecoration(
-                  
                     enabled: true,
                     enabledBorder: OutlineInputBorder(),
                     prefixIcon: Icon(Icons.key),
@@ -44,8 +69,19 @@ class _SignUpPageState extends State<SignUpPage> {
               0.1.ph,
               ElevatedButton(
                   style: ElevatedButton.styleFrom(shape: StadiumBorder()),
-                  onPressed: () {},
-                  child: Text("Sign Up"))
+                  onPressed: () {
+                    signUp(emailController.text.toString(),
+                        passwordController.text.toString());
+                  },
+                  child: Text("Sign Up")),
+              0.05.ph,
+              ElevatedButton(
+                  style: ElevatedButton.styleFrom(shape: StadiumBorder()),
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => SignIn()));
+                  },
+                  child: Text("Sign IN")),
             ],
           ),
         ),
