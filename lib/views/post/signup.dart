@@ -18,7 +18,7 @@ class _SignUpPageState extends State<SignUpPage> {
   void signUp(String email, password) async {
     try {
       Response response = await post(Uri.parse(kRegisterURL), body: {
-        "email": email,
+        "email": email,  // keys must be same as API
         "password": password,
       });
 
@@ -79,7 +79,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   style: ElevatedButton.styleFrom(shape: StadiumBorder()),
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => SignIn()));
+                        MaterialPageRoute(builder: (context) => SignIn(email_c: emailController, password_c: passwordController,)));
                   },
                   child: Text("Sign IN")),
             ],
