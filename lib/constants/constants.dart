@@ -15,6 +15,7 @@ const String kShopsDataURL =
 
 const String kRegisterURL = "https://reqres.in/api/register";
 const String kLoginURL = "https://reqres.in/api/login";
+const String kImageUpload = "https://fakestoreapi.com/products";
 
 // Constant Text
 
