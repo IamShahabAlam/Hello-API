@@ -1,9 +1,8 @@
 import 'dart:io';
-import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hello_api_app/views/post/signup.dart';
+import 'package:hello_api_app/views/post/upload_image.dart';
 
 import 'views/get/custom.dart';
 
@@ -29,7 +28,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: 
-      SignUpPage()
+      ImagePage()
+      // SignUpPage()
       // CustomPage(),
       // ShopsDataPage(),
       // AllDataPage(),
